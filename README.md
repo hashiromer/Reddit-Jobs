@@ -10,6 +10,8 @@ I wrote this program to search for jobs from reddit and save them to a database.
 
 - Sometimes regular posts are marked incorrectly as jobs but it was a tradeoff I intentionally made to cover as many subreddits as possible. It is technically possible to remove them but the effort required wasn't worth it in my assessment.
 
+- At the moment, you will be notified of all jobs posted on reddit most of which won't be relevant for you. You can however easily extend the program to only get notified of jobs containing keywords of your choosing. If enough people want this feature, I will add it myself.
+
 - The UI isn't open source at the moment to query the jobs from database. `FRONTEND_URL` in .env.example refers to the url of UI.
 
 # Setup
